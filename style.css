@@ -14,7 +14,7 @@ header {
 
 nav {
     display: flex;
-    padding: 2em 0 6em 0;
+    padding: 2em 0 10em 0;
     margin: 0 auto;
     max-width: 1000px;
     justify-content: space-between;
@@ -47,6 +47,7 @@ li:last-of-type {
 
 .first-section {
     background-color: #1f2937;
+    padding-bottom: 10em;
 }
 
 .first-section-container {
@@ -95,3 +96,45 @@ h1 {
 img {
     width: 100%;
 }
+
+
+
+/* second section */
+
+.second-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10em 0;
+}
+
+.second-section h2 {
+    text-align: center;
+    color: #000;
+    font-weight: 700;
+    font-size: 34px;
+    margin-bottom: 3em;
+}
+
+.second-section-list {
+    display: flex;
+    max-width: 1200px;
+    justify-content: space-between;
+}
+
+.second-section-list-item {
+    width: 22%;
+    text-align: center;
+}
+
+.geometrical-form {
+    width: 200px;
+    height: 200px;
+    border: 4px solid #3882f6;
+    border-radius: 15px;
+    margin:0 auto 1em auto;
+}
+
+
+/* third section */
+
