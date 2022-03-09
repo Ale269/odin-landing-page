@@ -1,0 +1,44 @@
+* {
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1f2937;
+}
+
+nav {
+    display: flex;
+    padding: 2em 0;
+    margin: 0 auto;
+    max-width: 1000px;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    font-weight: 500;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    margin-right: 2em;
+    cursor: pointer;
+}
+
+li:last-of-type {
+    margin-right: 0;
+}
+
+.first-section {
+    background-color: #1f2937;
+}
